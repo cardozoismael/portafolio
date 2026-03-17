@@ -1,6 +1,6 @@
 import { useState ,useEffect, useRef} from 'react'
 import './App.css'
-import emailjs from "emailjs-com"
+import emailjs from "@emailjs/browser"
 
 function App() {
   const [modal,setModal]= useState(false)
