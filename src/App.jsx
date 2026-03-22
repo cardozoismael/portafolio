@@ -1,6 +1,7 @@
 import { useState ,useEffect, useRef} from 'react'
 import './App.css'
 import emailjs from "@emailjs/browser"
+import "./app.responsive.css"
 
 function App() {
   const [modal,setModal]= useState(false)
@@ -87,6 +88,7 @@ const scrollTo= (ref)=>{
       </header>
 
       <main>
+        
         <div ref={sobremiRef} className='conteiner'>
           <div className='conteiner-sobreMi'>
             <h2 className='miNombre'>ismael cardozo</h2>

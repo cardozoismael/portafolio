@@ -1,0 +1,189 @@
+@media (max-width:768px){
+    .conteiner-nav{
+        width: 100%;
+    }
+    .navegacion{
+        display: none;
+    }
+    .conteiner{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .conteiner-sobreMi{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .img-foto{
+        width: 300px;
+        height: 300px;
+    }
+    .titulo-skills{
+        width: 100%;
+        text-align: center;
+    }
+    .seccion-skills{
+        width: 650px;
+        margin: auto;
+    }
+    .imgReact{
+        width: 100px;
+    }
+    img{
+        width: 100px;
+    }
+    /* seccion proyectos ..... */
+
+    .titulo-proyecto{
+        margin: 50px;
+    }
+    .conteiner-proyectos{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        margin: auto;
+        
+    }
+    .proyectos-sec1{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+        .proyecto .descripcion, .proyecto .descripcion-btn {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+    .proyecto-sec2{
+        flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+
+    /* contactos... */
+
+    .conteiner-contacto{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titulo-contactos{
+        width: 100%;
+        text-align: center;
+    }
+    .secciones-contactos{
+        display: flex;
+        flex-direction: column
+    }
+}
+
+@media(max-width:430px){
+    .conteiner-nav{
+        width: 100%;
+    }
+    .navegacion{
+        display: none;
+    }
+    .conteiner{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .programador{
+        width: 300px;
+        margin: auto;
+    }
+    .conteiner-sobreMi{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .sobre-mi{
+        width: 200px;
+        margin: auto;
+    }
+    .img-foto{
+        width: 200px;
+        height: 200px;
+    }
+    .titulo-skills{
+        display: none;
+    }
+    .seccion-skills{
+        display: none;
+    }
+    
+    /* seccion proyectos ..... */
+    
+    .titulo-proyecto{
+        margin-top:500px ;
+    }
+    .conteiner-proyectos{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        margin: auto;
+        
+    }
+    .proyectos-sec1{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .proyecto{
+        width: 250px;
+        height: 480px;
+        margin: 5px;
+    }
+    
+    .img1{
+        width: 100%;
+        height: 100%;
+    }
+    .proyecto .descripcion, .proyecto .descripcion-btn {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+    .descripcion-btn{
+        justify-content: center;
+        justify-items: center;
+        margin-left: 70px;
+    }
+
+    .proyecto-sec2{
+        display: none;
+    }
+
+    /* contactos... */
+    .conteiner-contacto{
+        height: 1500px;
+    }
+    .titulo-contactos{
+        margin: 0;
+    }
+    .secciones-contactos{
+        height: auto;
+    }
+    .formulario-Contacto{
+        width: 100%;
+        height: auto;
+        margin: auto
+    }
+
+    .secciones-formulario{
+        height: auto;
+    }
+    .inp{
+        width: 100%;
+    }
+    .titulo-mensaje{
+        margin-top: 100px;
+    }
+}
