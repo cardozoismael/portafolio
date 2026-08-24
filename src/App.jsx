@@ -30,13 +30,13 @@ function App() {
 
 //  poner la ruta del curriculum
   const imprimirlo = ()=>{
-    const win = window.open(".curriculum") 
+    const win = window.open("/./public/curriculum.pdf") 
     win.onload=()=>{
       win.print()
     }
   }
   const descargarlo =()=>{
-    window.location.href=".curriculum"
+    window.location.href="/./public/curriculum.pdf"
   }
 
 
@@ -73,16 +73,7 @@ const scrollTo= (ref)=>{
           <button onClick={()=>scrollTo(sobremiRef)} className='btn-seccion'>sobre mi</button>
           <button onClick={()=>scrollTo(proyectoRef)} className='btn-seccion'>proyectos</button>
           <button onClick={()=>scrollTo(contactoRef)} className='btn-seccion'>contacto</button>
-          <button onClick={()=>{setModal(true)}} className='btn-seccion'>descargar cv</button>
-          {
-            modal && <>
-            <div className='modal'>
-              <button onClick={()=>setModal(false)} className='btn-cerrar'>x</button>
-              <button onClick={()=>imprimirlo()} className='btn-op'>imprimir</button>
-              <button onClick={()=>descargarlo()} className='btn-op'>descargar</button>
-            </div>
-            </>
-          }
+          <button onClick={()=>descargarlo()} className='btn-seccion'>descargar cv</button>
 
         </section>
       </header>
